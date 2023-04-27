@@ -512,6 +512,11 @@ footer {
     width: 60vw;
   }
 
+  .presentation-content {
+    font-size: 1.3rem;
+  }
+
+
   /* .skills-intro {
     font-size: 1.7rem;
   }
