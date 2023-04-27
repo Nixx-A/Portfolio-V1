@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/img/react.svg" />
+    <meta name="description" content="Portfolio of Nicolas Ayan" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/e1cc465530.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+  <body class="">
+    <!--========== Navbar==========-->
+    <nav>
+      <a class="logo"href="#">Nicolas<span class="logo-dot">.</span></a>
+      <i class="fa-solid fa-bars icon-hamburger icon"></i>
+      <div class="navbar-collapse"></div>
+      <ul class="list-container">
+        <li class="item-list"><a href="#home">Home</a></li>
+        <li class="item-list"><a href="#projects">Projects</a></li>
+        <li class="item-list"><a href="#skills">Skills</a></li>
+        <li><i  id="theme" class='bx bx-moon icon' ></i></li>
+       <!--  <li class=""><box-icon class="icon" type='solid' name='sun'></box-icon></li> -->
+      </ul>
+    </nav>
+    <main id="home">
+      <!--========== Presentation ==========-->
+      <div class="presentation-center">
+        <div class="img-container">
+          <img
+            src="./assets/img/programmingPhoto.svg"
+            alt="Photo programming" />
+        </div>
+        <section class="presentation-content">
+          <h2 class="presentation-subtitle">Nicolas Ayan</h2>
+          <p class="presentation-text">
+            Front end developer lover of the great impact that frontend development has on the creation of products for both clients and companies. Always focused on writing scalable, clean and efficient code.
+          </p>
+          <div class="presentation-media">
+            <button class="media">
+              <a href="https://github.com/Nixx-A" target="_blank"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+            </button>
+            <button class="media">
+              <a
+                href="https://www.linkedin.com/in/nicolas-ayan-88229b213/"
+                target="_blank"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </button>
+            <button class="media" id="projects">
+              <a
+                href="./assets/img/Nicolas_Ayan_cv.pdf"
+                target="_blank"
+                download
+                ><i class="fa-solid fa-file"></i
+              ></a>
+            </button>
+          </div>
+        </section>
+      </div>
+      <!--========== Projects section  ==========-->
+      <section class="projects-section">
+        <p class="projects-intro">
+          <span class="code"><</span>Projects <span class="code">/></span>
+        </p>
+
+        <div class="projects-grid">
+          <div class="project-container">
+            <div class="img-project-container">
+              <img
+                class="img-project"
+                src="./assets/img/Responsive-website-restaurant.png"
+                alt="Responsive-website-restaurant" />
+            </div>
+            <div class="languages-container">
+              <span class="languages">Html</span>
+              <span class="languages">Css</span>
+              <span class="languages">JavaScript</span>
+            </div>
+            <p class="project-description">
+              Responsive Website Restaurant
+            </p>
+            <div class="btns-container">
+             <!--  <button class="btn-project read-more">Read more</button> -->
+              <button class="btn-project"><a href="https://responsive-website-restaurant.vercel.app/" target="_blank">View Project</a></button>
+            </div>
+          </div>
+
+          <div class="project-container">
+            <div class="img-project-container">
+              <img class="img-project" src="./assets/img/ToDo-Project.png" alt="To Do project" />
+            </div>
+            <div class="languages-container">
+              <span class="languages">Html</span>
+              <span class="languages">Css</span>
+              <span class="languages">JavaScript</span>
+            </div>
+            <p class="project-description">
+              To-Do App
+            </p>
+            <div class="btns-container">
+             <!--  <button class="btn-project read-more">Read more</button> -->
+              <button class="btn-project"><a href="https://github.com/Nixx-A/To-Do" target="_blank">View Project</a></button>
+            </div>
+          </div>
+          <!--========== Modals ==========-->
+          <!-- <div class="modal-container">
+            <div class="modal"></div>
+          </div> -->
+
+          <div class="project-container">
+            <div class="img-project-container">
+              <img class="img-project" src="assets/img/Weather-App.png" alt="Weather-App" />
+            </div>
+            <div class="languages-container">
+              <span class="languages">Css Modules</span>
+              <span class="languages">JavaScript</span>
+              <span class="languages">Next.js</span>
+            </div>
+            <p class="project-description">
+              Weather App
+            </p>
+            <div class="btns-container">
+              <!-- <button class="btn-project read-more">Read more</button> -->
+              <button class="btn-project"><a href="https://weather-app-nixx.vercel.app/" target="_blank">View Project</a></button>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="btn-container">
+            <button class="btn-project view-more">View more</button>
+        </div> -->
+        <div class="more-projects" id="skills"></div>
+      </section>
+
+        <!--========== Skills ==========-->
+        <p class="skills-intro">
+          <span class="skill-code"><</span>Skills <span class="skill-code">/></span>
+        </p>
+
+        <div class="skills-container">
+          <div class="info-skills">
+            <i class="fa-solid fa-code skills"></i>
+            <h3 class="skill-subtitle">Front end</h3>
+            <p class="skill-text">Html, Css3, Json, Es6</p>
+          </div>
+          <div class="info-skills">
+            <i class="fa-solid fa-cubes skills"></i>
+            <h3 class="skill-subtitle">Languages</h3>
+            <p class="skill-text">JavaScript</p>
+          </div>
+          <div class="info-skills">
+            <i class="fa-solid fa-laptop-code skills"></i>
+            <h3 class="skill-subtitle">Frameworks</h3>
+            <p class="skill-text">React, Tailwind, Next.js</p>
+          </div>
+        </div>
+
+        <!--========== Footer ==========-->
+   </main>
+   <footer>
+    <h4 class="footer-sub">Nicolas Ayan</h4>
+    <div class="presentation-media">
+      <button class="media">
+        <a href="https://github.com/Nixx-A" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </button>
+      <button class="media">
+        <a
+          href="https://www.linkedin.com/in/nicolas-ayan-88229b213/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+      </button>
+      <button class="media">
+        <a
+          href="./assets/img/Nicolas_Ayan_cv.pdf"
+          target="_blank"
+          download
+          ><i class="fa-solid fa-file"></i
+        ></a>
+      </button>
+   </footer>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="/assets/js/index.js" async defer></script>
+  </body>
+</html>
