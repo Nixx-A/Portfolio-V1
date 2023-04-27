@@ -491,7 +491,7 @@ footer {
     justify-content: flex-end;
   }
 
-  /* .logo {
+   .logo {
     font-size: 1.4rem;
   }
 
@@ -506,7 +506,7 @@ footer {
 
   .projects-intro {
     font-size: 1.7rem;
-  } */
+  } 
 
   .project-container {
     width: 60vw;
@@ -517,7 +517,7 @@ footer {
   }
 
 
-  /* .skills-intro {
+   .skills-intro {
     font-size: 1.7rem;
   }
 
@@ -539,7 +539,8 @@ footer {
 
   .footer-sub {
     font-size: 1.5rem;
-  } */
+  } 
+  
 } 
 
  @media (min-width: 1024px) {
